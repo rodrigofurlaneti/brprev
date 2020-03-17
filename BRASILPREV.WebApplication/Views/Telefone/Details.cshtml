@@ -1,0 +1,31 @@
+﻿@model BRASILPREV.WebApplication.Models.Telefone
+@{
+    ViewData["Title"] = "Detalhar Telefone";
+}
+<h2 class="display-4">Detalhar Telefone</h2>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Id
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt>
+            Ddd
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ddd)
+        </dd>
+        <dt>
+            Numero
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Numero)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index" class="btn btn-sm btn-secondary">Voltar</a>
+</div>

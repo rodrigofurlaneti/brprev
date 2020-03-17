@@ -1,0 +1,14 @@
+C:\Users\Administrador\source\repos\BRASILPREV\BRASILPREV.Dal\bin\Debug\netcoreapp2.1\BRASILPREV.Dal.deps.json
+C:\Users\Administrador\source\repos\BRASILPREV\BRASILPREV.Dal\bin\Debug\netcoreapp2.1\BRASILPREV.Dal.dll
+C:\Users\Administrador\source\repos\BRASILPREV\BRASILPREV.Dal\bin\Debug\netcoreapp2.1\BRASILPREV.Dal.pdb
+C:\Users\Administrador\source\repos\BRASILPREV\BRASILPREV.Dal\bin\Debug\netcoreapp2.1\BRASILPREV.Models.dll
+C:\Users\Administrador\source\repos\BRASILPREV\BRASILPREV.Dal\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Administrador\source\repos\BRASILPREV\BRASILPREV.Dal\bin\Debug\netcoreapp2.1\BRASILPREV.Models.pdb
+C:\Users\Administrador\source\repos\BRASILPREV\BRASILPREV.Dal\bin\Debug\netcoreapp2.1\Microsoft.EntityFrameworkCore.xml
+C:\Users\Administrador\source\repos\BRASILPREV\BRASILPREV.Dal\obj\Debug\netcoreapp2.1\BRASILPREV.Dal.csprojAssemblyReference.cache
+C:\Users\Administrador\source\repos\BRASILPREV\BRASILPREV.Dal\obj\Debug\netcoreapp2.1\BRASILPREV.Dal.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\BRASILPREV\BRASILPREV.Dal\obj\Debug\netcoreapp2.1\BRASILPREV.Dal.AssemblyInfoInputs.cache
+C:\Users\Administrador\source\repos\BRASILPREV\BRASILPREV.Dal\obj\Debug\netcoreapp2.1\BRASILPREV.Dal.AssemblyInfo.cs
+C:\Users\Administrador\source\repos\BRASILPREV\BRASILPREV.Dal\obj\Debug\netcoreapp2.1\BRASILPREV.Dal.csproj.CopyComplete
+C:\Users\Administrador\source\repos\BRASILPREV\BRASILPREV.Dal\obj\Debug\netcoreapp2.1\BRASILPREV.Dal.dll
+C:\Users\Administrador\source\repos\BRASILPREV\BRASILPREV.Dal\obj\Debug\netcoreapp2.1\BRASILPREV.Dal.pdb

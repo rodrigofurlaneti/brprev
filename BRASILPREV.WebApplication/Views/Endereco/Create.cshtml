@@ -1,0 +1,66 @@
+﻿@model BRASILPREV.WebApplication.Models.Endereco
+@{
+    ViewData["Title"] = "Adicionar Endereco";
+}
+<h2 class="display-4">Adicionar Endereco</h2>
+<form asp-action="Create">
+    <input asp-for="@Model.Id" type="hidden" class="form-control form-control-sm" />
+    <div class="form-row">
+        <div class="form-group-sm col-md-12">
+            <div class="form-group">
+                <label asp-for="@Model.Logradouro" class="control-label">Logradouro:</label>
+                <input asp-for="@Model.Logradouro" class="form-control form-control-sm" />
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group-sm col-md-12">
+            <div class="form-group">
+                <label asp-for="@Model.Numero" class="control-label">Numero:</label>
+                <input asp-for="@Model.Numero" class="form-control form-control-sm" />
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group-sm col-md-12">
+            <div class="form-group">
+                <label asp-for="@Model.Complemento" class="control-label">Complemento:</label>
+                <input asp-for="@Model.Complemento" class="form-control form-control-sm" />
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group-sm col-md-12">
+            <div class="form-group">
+                <label asp-for="@Model.Bairro" class="control-label">Bairro:</label>
+                <input asp-for="@Model.Bairro" class="form-control form-control-sm" />
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group-sm col-md-12">
+            <div class="form-group">
+                <label asp-for="@Model.Cidade" class="control-label">Cidade:</label>
+                <input asp-for="@Model.Cidade" class="form-control form-control-sm" />
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group-sm col-md-12">
+            <div class="form-group">
+                <label asp-for="@Model.Estado" class="control-label">Estado:</label>
+                <input asp-for="@Model.Estado" class="form-control form-control-sm" />
+            </div>
+        </div>
+    </div>
+    <div class="form-row botao">
+        <div class="col-md-11">
+            <a asp-action="Index">
+                <input type="button" value="Voltar" class="btn btn-sm btn-secondary" />
+            </a>
+        </div>
+        <div class="col-md-1">
+            <input type="submit" value="Salvar" class="btn btn-sm btn-success" />
+        </div>
+    </div>
+</form>

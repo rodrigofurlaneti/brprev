@@ -1,0 +1,83 @@
+﻿@model IEnumerable<BRASILPREV.WebApplication.Models.Endereco>;
+@{
+    ViewData["Title"] = "Telefone";
+}
+<h2 class="display-4">Telefone</h2>
+<p>
+    <a asp-action="Create">Adicionar novo telefone</a>
+</p>
+<table class="table" id="myTable">
+    <thead>
+        <tr class="col-12">
+            <th>
+                Id
+            </th>
+            <th>
+                Logradouro
+            </th>
+            <th>
+                Numero
+            </th>
+            <th>
+                Complemento
+            </th>
+            <th>
+                Bairro
+            </th>
+            <th>
+                Cidade
+            </th>
+            <th>
+                Estado
+            </th>
+            <th>
+                Detalhar
+            </th>
+            <th>
+                Editar
+            </th>
+            <th>
+                Apagar
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+
+        <tr onclick="Detalhar(@item.Id)">
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Logradouro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Numero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Complemento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bairro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Estado)
+            </td>
+
+            <td>
+                <a asp-action="Details" class="btn btn-sm btn-warning" asp-route-id="@item.Id">Detalhar</a>
+            </td>
+            <td>
+                <a asp-action="Edit" class="btn btn-sm btn-info" asp-route-id="@item.Id">Editar</a>
+            </td>
+            <td>
+                <a asp-action="Delete" class="btn btn-sm btn-danger" asp-route-id="@item.Id">Apagar</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

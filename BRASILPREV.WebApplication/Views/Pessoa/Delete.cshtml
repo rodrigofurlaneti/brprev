@@ -1,0 +1,13 @@
+﻿@model BRASILPREV.WebApplication.Models.Pessoa;
+@{
+    ViewData["Title"] = "Apagar Pessoa";
+}
+<h2 class="display-4">Apagar Pessoa</h2>
+
+<h5 class="display-4">Tem certeza que deseja apagar a Pessoa @Html.DisplayFor(Model => Model.Nome)?</h5>
+<form asp-action="Delete">
+    <input type="submit" value="Apagar" class="btn btn-sm btn-danger" />
+</form>
+<div>
+    <a asp-action="Index" class="btn btn-sm btn-secondary">Voltar</a>
+</div>
